@@ -278,7 +278,7 @@
 
 .nftBox {
   border-radius: 16px;
-  border: 1px solid #ccc;
+  border: 8px solid rgb(11, 189, 234);
   width: 19%;
   min-height: 200px;
 }
@@ -390,7 +390,7 @@
 .codeSnippet {
   text-align: start;
   padding: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(186, 20, 20, 0.3);
   border-radius: 16px;
   width: 900px;
   max-width: 95vw;

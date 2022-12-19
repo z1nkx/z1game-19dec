@@ -45,7 +45,7 @@ export default function CurrentGear({
 
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
-      <h2 className={`${styles.noGapTop} `}>Equipped Items</h2>
+      <h2 className={`${styles.noGapTop} `}>Staked</h2>
       <div
         style={{
           display: "flex",
@@ -55,14 +55,14 @@ export default function CurrentGear({
         }}
       >
         {/* Currently equipped player */}
-        <div style={{ outline: "1px solid grey", borderRadius: 16 }}>
+        <div style={{ outline: "5px solid purple", borderRadius: 1 }}>
           {playerNft && (
             <ThirdwebNftMedia metadata={playerNft?.metadata} height={"64"} />
           )}
         </div>
         {/* Currently equipped pickaxe */}
         <div
-          style={{ outline: "1px solid grey", borderRadius: 16, marginLeft: 8 }}
+          style={{ outline: "5px solid purple", borderRadius: 1, marginLeft: 8 }}
         >
           {pickaxe && (
             // @ts-ignore

@@ -68,7 +68,7 @@ export default function OwnedGear({ pickaxeContract, miningContract }: Props) {
                 contractAddress={MINING_CONTRACT_ADDRESS}
                 action={() => equip(p.metadata.id)}
               >
-                Equip
+                Stake
               </Web3Button>
             </div>
           </div>

@@ -13,9 +13,9 @@ export default function MintContainer() {
 
   return (
     <div className={styles.collectionContainer}>
-      <h1>Edition Drop</h1>
+      <h1>Z1 MINING</h1>
 
-      <p>Claim your Token Chest to start playing!</p>
+      <p>Purchase a Token Chest to start mining!</p>
 
       <div className={`${styles.nftBox} ${styles.spacerBottom}`}>
         <img src="./mine.gif" style={{ height: 200 }} />

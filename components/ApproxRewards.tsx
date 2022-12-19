@@ -22,7 +22,7 @@ export default function ApproxRewards({ miningContract }: Props) {
   // This is a rough estimation of how many tokens have been earned in the current session
 
   const everyMillisecondAmount = parseInt(
-    (1_000_000_000_000_000 / 2.1).toFixed(0)
+    (4_000_000_000_000 / 2.1).toFixed(0)
   );
 
   const [amount, setAmount] = useState<number>(0);
