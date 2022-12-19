@@ -30,6 +30,7 @@ export default function ShopItem({ item, pickaxeContract }: Props) {
       <h3>{item.metadata.name}</h3>
       <p>
         Price:{" "}
+        
         <b>
           {claimCondition && ethers.utils.formatUnits(claimCondition?.price)}{" "}
           Matic
