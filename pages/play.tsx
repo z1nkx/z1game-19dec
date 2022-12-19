@@ -93,7 +93,7 @@ export default function Play() {
 
       {pickaxeContract && tokenContract ? (
         <>
-          <h2 className={`${styles.noGapTop} ${styles.noGapBottom}`}>Shop</h2>
+          <h2 className={`${styles.noGapTop} ${styles.noGapBottom}`}>Shop - VIP bonus 🧪 = 100Z1</h2>
           <div
             style={{
               width: "100%",

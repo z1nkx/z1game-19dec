@@ -41,7 +41,7 @@ export default function Rewards({ miningContract, tokenContract }: Props) {
       style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
     >
       <p>
-        Your <b>z1 tokens</b>
+        Your <b>z1</b>
       </p>
 
       {tokenMetadata && (
@@ -52,10 +52,10 @@ export default function Rewards({ miningContract, tokenContract }: Props) {
         />
       )}
       <p className={styles.noGapBottom}>
-        Balance: <b>{currentBalance?.displayValue}</b>
+        💰Balance: <b>{currentBalance?.displayValue}</b>
       </p>
       <p>
-        Unclaimed:{" "}
+        🚨Unclaimed:{" "}
         <b>{unclaimedAmount && ethers.utils.formatUnits(unclaimedAmount)}</b>
       </p>
 
