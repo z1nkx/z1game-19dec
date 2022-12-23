@@ -15,7 +15,7 @@ export default function MintContainer() {
     <div className={styles.collectionContainer}>
       <h1>Z1 MINING</h1>
 
-      <p>Purchase a Token Chest to start mining!</p>
+      <p>Mint a Token Chest to start mining! Limited available</p>
 
       <div className={`${styles.nftBox} ${styles.spacerBottom}`}>
         <img src="./mine.gif" style={{ height: 200 }} />
@@ -27,7 +27,7 @@ export default function MintContainer() {
           contractAddress={CHARACTER_EDITION_ADDRESS}
           action={(contract) => contract.erc1155.claim(0, 1)}
         >
-          Mint 25 z1
+          Mint
         </Web3Button>
       </div>
     </div>
