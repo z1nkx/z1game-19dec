@@ -33,7 +33,7 @@ export default function ShopItem({ item, pickaxeContract }: Props) {
         
         <b>
           {claimCondition && ethers.utils.formatUnits(claimCondition?.price)}{" "}
-          Matic
+          Z1
         </b>
       </p>
 
