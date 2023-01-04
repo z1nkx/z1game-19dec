@@ -45,7 +45,7 @@ export default function ShopItem({ item, pickaxeContract }: Props) {
           onSuccess={() => alert("Purchased!")}
           onError={(error) => alert(error)}
         >
-          Mint
+          CLOSED
         </Web3Button>
       </div>
     </div>
